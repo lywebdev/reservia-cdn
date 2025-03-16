@@ -20,7 +20,7 @@
 
         const script = document.createElement('script');
         // script.src = 'reserviaBookingWidget.js';
-        script.src = 'build/widgets/reserviaBookingWidget.js';
+        script.src = 'https://cdn.jsdelivr.net/gh/lywebdev/reservia-cdn@master/build/widgets/reserviaBookingWidget.bundle.js';
         script.async = 1;
         script.type = "module";
 
